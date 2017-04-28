@@ -1,0 +1,165 @@
+/*Versión Móvil*/
+
+  body{
+    font-family: "Source Sans Pro";
+  }
+
+  .colcol{
+    padding: 0;
+  }
+
+  .cabecera-superior{
+    background: url(../media/bc.png) center center no-repeat;
+    background-size: cover;
+    height: 500px;
+    color:white;
+    padding: 330px 0 0 0;
+  }
+  .cabecera-superior h1{
+    font-size: 3.2rem;
+    text-shadow:  7px 7px 7px black;
+    font-weight: 700;
+    padding: 0 10px;
+  }
+
+  .cabecera-superior h2{
+    font-size: 1.8rem;
+    text-shadow:  7px 7px 7px black;
+    font-weight: 500;
+    padding: 0 10px;
+  }
+
+
+  .parte-02{
+    background-color: #f4f4f4;
+  }
+  .parte-02 h1{
+    text-align: left;
+    font-size: 3.2rem;
+    font-weight: 700;
+    padding-top: 10px;
+  }
+  .parte-02 h3{
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .parte-03 h1{
+    text-align: right;
+    font-size: 3.2rem;
+    font-weight: 700;
+  }
+  .parte-03 h3{
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .separador{
+    border-top: 15px solid #f4f4f4;
+    border-left:100vw solid #f4f4f4;
+    margin-left: -30px;
+    margin-top: -15px;
+    border-bottom:65px solid transparent;
+    -webkit-filter:drop-shadow(0 18px 7px rgba(16,16,16,0.6));
+    filter:drop-shadow(0 18px 7px rgba(16,16,16,0.6));
+  }
+
+  .parte-04{
+    margin-bottom: 2rem;
+    padding: 0 20px;
+  }
+  .to-right{
+    text-align: right;
+    padding:
+  }
+  #carousel1{
+    background-color: #f4f4f4;
+  }
+  .valoraciones .media{
+    padding: 10rem;
+    margin: 0 auto;
+  }
+  .valoraciones .logo{
+    font-size: 60px;
+  }
+  .valoraciones h4{
+    font-size: 2.4rem;
+    font-weight: 300;
+  }
+  .valoraciones p{
+    font-size: 1.4rem;
+    font-style: italic;
+  }
+  .carousel-indicators{
+    margin-bottom: -20px;
+  }
+/*Versión Tablet*/
+@media screen and (min-width: 600px) {
+  .container-fluid{
+    padding: 0;
+  }
+  .cabecera-superior{
+    background: url(../media/bc-movil.jpeg) center center no-repeat;
+    background-size: cover;
+    height: 790px;
+    color:white;
+    padding: 500px 0 0 0;
+  }
+
+  .cabecera-superior h1{
+    font-size: 5.2rem;
+    text-shadow:  7px 7p/tutoriales_autoescuela.aspx 7px black;
+    font-weight: 700;
+    padding: 0 100px;
+  }
+
+  .cabecera-superior h2{
+    font-size: 2.7rem;
+    text-shadow:  7px 7px 7px black;
+    font-weight: 500;
+    padding: 10px 300px 0 100px;
+  }
+  .parte-02 h1{
+    padding-top: 60px;
+    font-size: 5.2rem;
+    font-weight: 700;
+  }
+  .parte-02 h3{
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  .separador{
+    border-bottom:165px solid transparent;
+  }
+  .parte-04{
+    margin-bottom: 4rem;
+  }
+  .parte-04 h1{
+    font-size:5.2rem;
+    font-weight: 700;
+    padding: 100px 0 0 60px;
+  }
+
+  .parte-04 h2{
+    font-size:4rem;
+    font-weight: 500;
+  }
+  .parte-04 h4{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  #carousel1 {
+    margin-top: 60px;
+    height: 30rem;
+
+  }
+  .carousel-inner{
+    height:100%;
+  }
+  .valoraciones .media{
+    padding: 0;
+    margin: 34% auto;
+  }
+
+}
